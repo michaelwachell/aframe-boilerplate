@@ -2,6 +2,8 @@
   "name": "aframe-hello-world-boilerplate",
   "description": "Boilerplate with A-Frame's 'Hello, World!' of WebVR.",
   "version": "0.3.0",
+  "private": true,
+  "main": "index.js",
   "license": "MIT",
   "scripts": {
     "start": "budo --live --verbose --port 3000 --open",
@@ -19,5 +21,11 @@
     "aframe-scene",
     "webvr",
     "vr"
-  ]
+  ],
+  "dependencies": {
+    "a-frame": "0.0.0",
+    "aframe": "^0.8.2",
+    "aframe-extras": "^5.0.1",
+    "webpack": "^4.28.4"
+  }
 }
